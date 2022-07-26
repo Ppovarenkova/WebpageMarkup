@@ -1,0 +1,66 @@
+.social {
+    width: 100%;
+    background-color: rgba(248, 239, 239, 1);
+    padding: 15px 0 15px;
+}
+.social__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.social__information {
+    width: 365px;
+}
+.title--social {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color:rgba(51, 51, 51, 1);
+    margin-bottom: 15px;
+}
+.subtitle--social {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: rgba(134, 135, 139, 1);
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+}
+.social__icons {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fa-brands {
+    cursor: pointer;
+    margin-right: 40px;
+    color: rgba(134, 135, 139, 1) ;
+    transition: 0.3s;
+}
+.fa-facebook-f:hover {
+    color: rgb(48, 48, 145);
+}
+.fa-twitter:hover {
+    color: rgb(48, 188, 239)
+}
+.fa-google-plus-g:hover {
+    color: rgb(186, 48, 48);
+}
+.fa-pinterest:hover {
+    color: rgb(215, 58, 58);
+}
+.fa-instagram:hover {
+    color: rgb(198, 28, 161);
+}
+.fa-telegram:hover {
+    color: rgb(34, 125, 209);
+}
+.fa-snapchat {
+    margin: 0;
+}
+.fa-snapchat:hover {
+    color: rgb(217, 217, 45);
+}

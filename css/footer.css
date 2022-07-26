@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 30px 0 15px;
+}
+
+.footer__icons {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+
+}
+
+.footer__subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color:rgba(134, 135, 139, 1);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

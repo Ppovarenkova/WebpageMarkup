@@ -1,0 +1,84 @@
+@import url("../css/header.css");
+@import url("../css/awesome.css");
+@import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
+@import url("../css/social.css");
+@import url("../css/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1170px; 
+    margin: auto;
+    padding: 0 15px;
+    z-index: 2;
+    position: relative;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+.title {
+    color: #212121;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 0 0 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title--white {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 0 0 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.subtitle::before {
+    content:'';
+    display:inline-block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: 0 auto 34px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #86878B;
+    margin-bottom: 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.subtitle--white::before {
+    content:'';
+    display:inline-block;
+    width: 64px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 0 auto 34px;
+}
+.subtitle--white {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
