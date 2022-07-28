@@ -26,7 +26,7 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.axure__link {
+.link--download {
     font-size: 15px;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
