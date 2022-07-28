@@ -6,6 +6,11 @@
     background-size: cover;
     background-position:center;
 }
+.axit__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .axit::after {
     content: '';
     background: rgba(0, 0, 0, 0.45); 
@@ -104,6 +109,8 @@
     border-color: rgba(189, 189, 189, 1);
     outline: none;
     transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    color:  rgb(133, 132, 132);
 }
 .form__input:focus {
     border-color: rgba(236, 121, 121, 1);
