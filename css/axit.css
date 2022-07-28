@@ -6,6 +6,11 @@
     background-size: cover;
     background-position:center;
 }
+.axit__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .axit::after {
     content: '';
     background: rgba(0, 0, 0, 0.45); 
